@@ -18,11 +18,11 @@ public class perseguidor extends AdvancedRobot {
 	 */
 	public void run() {
 		setAdjustRadarForRobotTurn(true);//Mantém o radar parado, enquanto se movimenta
-		setBodyColor(new Color(128, 128, 50));		// 
-		setGunColor(new Color(50, 50, 20));			// Define as cores do robô
-		setRadarColor(new Color(200, 200, 70));		// 
-		setScanColor(Color.white);					// Cor do scanner
-		setBulletColor(Color.blue);					// Cor da bala
+		setBodyColor(new Color(25, 12, 58));		// 
+		setGunColor(new Color(40, 90, 50));			// Define as cores do robô
+		setRadarColor(new Color(100, 53, 35));		// 
+		setScanColor(Color.red);					// Cor do scanner
+		setBulletColor(Color.dark);					// Cor da bala
 		setAdjustGunForRobotTurn(true); // Mantém o canhão estável no movimento
 		turnRadarRightRadians(Double.POSITIVE_INFINITY);//Mantém o radar se movimentando para direita
 	}
