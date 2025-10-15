@@ -1,4 +1,4 @@
-package roboMacho;
+package Robocode01;
 
 import robocode.*;
 import java.awt.*;
@@ -11,7 +11,7 @@ import java.awt.*;
  * Problemas: robô em longas batalhas perde por superaquecimento
  * robos como wall e spin, ele perde facilmente
  */
-public class SuperTracker extends AdvancedRobot {
+public class perseguidor extends AdvancedRobot {
 	int moveDirection=1;//Como ele vai se movimentar
 	/**
 	 * run:  Função principal de movimentação
