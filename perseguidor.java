@@ -49,7 +49,7 @@ public class perseguidor extends AdvancedRobot {
 			gunTurnAmt = robocode.util.Utils.normalRelativeAngle(absBearing- getGunHeadingRadians()+latVel/15);//
 			setTurnGunRightRadians(gunTurnAmt);//vira a arma
 			setTurnLeft(-90-e.getBearing()); //vira perpendicularmente ao inimigo
-			setAhead((e.getDistance() - 140)*moveDirection);//vai para frente
+			setAhead((e.getDistance() - 130)*moveDirection);//vai para frente
 			setFire(3);//atira ai ai ai ta doendo
 		}	
 	}
